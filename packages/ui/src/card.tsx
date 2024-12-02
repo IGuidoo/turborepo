@@ -1,5 +1,5 @@
 import * as React from "react"
-import { cn } from "./utils.js"
+import { cn } from "./utils"
 
 
 const CardSmall = React.forwardRef<
