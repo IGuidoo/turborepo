@@ -5,11 +5,11 @@ const nextConfig = {
     return [
       {
         source: '/docs',
-        destination: 'https://turborepo-docs-theta.vercel.app/docs'
+        destination: 'https://turborepo-docs-theta.vercel.app'
       },
       {
         source: '/docs/:path*',
-        destination: 'https://turborepo-docs-theta.vercel.app/docs/:path*'
+        destination: 'https://turborepo-docs-theta.vercel.app/:path*'
       }
     ]
   }
