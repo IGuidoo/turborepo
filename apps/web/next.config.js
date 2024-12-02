@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/docs/:path*',
-        destination: 'https://turborepo-docs-theta.vercel.app/:path*' // Remove /docs from destination
+        destination: 'https://turborepo-docs-theta.vercel.app/docs/:path*' // Added /docs prefix
       }
     ]
   }
