@@ -4,8 +4,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: '/docs',
+        destination: 'https://turborepo-docs-theta.vercel.app/docs'
+      },
+      {
         source: '/docs/:path*',
-        destination: 'https://turborepo-docs-theta.vercel.app/docs/:path*' // Added /docs prefix
+        destination: 'https://turborepo-docs-theta.vercel.app/docs/:path*'
       }
     ]
   }
