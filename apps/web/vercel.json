@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/docs",
-      "destination": "https://docs.vercel.app"
+      "destination": "https://turborepo-docs-theta.vercel.app"
     },
     {
       "source": "/docs/:path*",
-      "destination": "https://docs.vercel.app/:path*"
+      "destination": "https://turborepo-docs-theta.vercel.app/:path*"
     }
   ]
 }
