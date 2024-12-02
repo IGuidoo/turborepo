@@ -10,6 +10,7 @@
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
+  "output": "standalone",
   "dependencies": {
     "@repo/ui": "*",
     "next": "15.0.3",
