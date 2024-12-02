@@ -28,7 +28,7 @@
     "autoprefixer": "10.4.20",
     "postcss": "8.4.47",
     "typescript": "5.5.4",
-    "clsx": "workspace:*",
-    "tailwind-merge": "workspace:*"
+    "clsx": "*",
+    "tailwind-merge": "*"
   }
 }
