@@ -1,50 +1,28 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  .molecule {
+    @apply bg-white
+
+  border 
+  theme-b-p
+
+  ring-4
+  ring-base-100
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+@layer components{
+  .theme-t-p { @apply text-theme-light-text-primary  }
+  .theme-t-s { @apply text-theme-light-text-secondary  }
+  .theme-t-t { @apply text-theme-light-text-tertiary}
+  .theme-t-n { @apply text-theme-light-text-notes}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-}
+  .theme-bg-p { @apply bg-theme-light-background-primary  } /* base-950*/
+  .theme-bg-s { @apply bg-theme-light-background-secondary  }
+  .theme-bg-w { @apply bg-white  }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.imgDark {
-  display: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-
-  .imgLight {
-    display: none;
-  }
-  .imgDark {
-    display: unset;
-  }
+  .theme-b-p { @apply border-theme-light-stroke  }
 }

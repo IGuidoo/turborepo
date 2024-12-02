@@ -23,6 +23,12 @@
     "@types/node": "^20",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
-    "typescript": "5.5.4"
+    "tailwind-config": "*",
+    "tailwindcss": "^3.4.15",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "typescript": "5.5.4",
+    "clsx": "workspace:*",
+    "tailwind-merge": "workspace:*"
   }
 }
