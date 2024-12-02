@@ -1,7 +1,7 @@
 // apps/docs/next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove basePath configuration
+  basePath: '/docs',
 };
 
 export default nextConfig;
